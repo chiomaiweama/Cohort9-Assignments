@@ -1,0 +1,199 @@
+body{
+    background-color: black;
+    margin: 20px;
+    height: 100vh;
+}
+
+.FirstRowOf4{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.6rem;
+
+}
+
+.box{
+    height: 300px;
+    background-color: rgb(44, 44, 44);
+    border-radius: 4px;
+    margin-bottom: 15px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle img{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+    
+
+.nameText{
+    font-size: 50px;
+    color: white;
+}
+
+.micCircle{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(49, 49, 49);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+
+}
+
+.micCircle svg{
+    height: 25px;
+    width: 25px;
+    color: white;
+}
+
+.textContent{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+p{
+    margin: 0;
+    color: white;
+    font-size: 17px;
+}
+
+.SecondRowOf4{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.6rem;
+
+}
+
+.ThirdRowOf2{
+    display: grid;
+    grid-template-columns: repeat(2, 30%);
+    gap: 0.6rem;
+    justify-content: center;
+}
+
+.box2{
+    height: 300px;
+    background-color: rgb(44, 44, 44);
+    border-radius: 4px;
+    margin-top: 1px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.part1 p{
+    color: white;
+    font-size: 18px;
+}
+
+.center {
+    display: flex;
+    gap: 12px;
+    margin-left: 150px;
+}
+
+.lastPart {
+    display: flex;
+    gap: 30px;
+    margin-left: 10px;
+}
+
+.footerCircle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(49, 49, 49);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.footerCircle svg{
+    height: 30px;
+    width: 30px;
+    color: white;
+}
+
+.footerIcon svg{
+    height: 30px;
+    width: 30px;
+    color: white;
+}
+
+#blue{
+    background-color: blue;
+}
+
+#orangeRed{
+    background-color: orangered;
+}
+
+#green{
+    background-color: green;
+}
+
+#darkCyan{
+    background-color: darkcyan;
+}
+
+#darkRed{
+    background-color: darkred;
+}
+
+#chocolate{
+    background-color: chocolate;
+}
+
+#deepPink{
+    background-color: deeppink;
+}
+
+#teal{
+    background-color: teal;
+}
+
+#mic, #video, #call{
+    background-color: rgb(218, 43, 16);
+}
+
+#call{
+    width: 70px;
+    height: 50px;
+    border-radius: 40%;
+}
