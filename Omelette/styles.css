@@ -12,7 +12,7 @@ body{
 }
 
 .generalContainer{
-    height: 200vh;
+    /* height: 200vh; */
     width: 700px;
     border-radius: 15px;
     background-color: white;
@@ -153,14 +153,25 @@ ol li{
     padding-left: 20px;
 }
 
-@media screen and (max-width: 600px) {
+ @media screen and (max-width: 600px) {
     .generalContainer{
-    height: 300vh;
+    /* height: 300vh; */
+    margin: 0;
+    padding: 0px;
+    }
+
+    .omeletteImgContainer{
+        border-radius: 0;
+        width: 100%;
+        margin: 0;
+    }
+    .otherDiv{
+        padding: 30px;
     }
 }
 
-@media screen and (min-width: 600px) {
+/* @media screen and (min-width: 600px) {
     .generalContainer{
     height: 250vh;
     }
-}
+} */ 
