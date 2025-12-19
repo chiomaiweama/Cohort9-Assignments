@@ -13,27 +13,29 @@
     <header>
         <!-- NAVIGATION & ICON -->
         <nav>
-            <div id="leftside-nav">
-                <div id="t-icon">
-                    <p class="icon-letter">T</p>
+            <div class="nav-container">
+                <div id="leftside-nav">
+                    <div id="t-icon">
+                        <p class="icon-letter">T</p>
+                    </div>
+                    <p class="icon-word">Trafalgar</p>
                 </div>
-                <p class="icon-word">Trafalgar</p>
-            </div>
-            <div id="rightside-nav">
-                <ul class="nav-list">
-                    <li class="home">Home</li>
-                    <li class="find-a-doctor">Find a Doctor</li>
-                    <li class="apps">Apps</li>
-                    <li class="testimonials">Testimonials</li>
-                    <li class="about-us">About us</li>
-                </ul>
+                <!-- <div id="rightside-nav"> -->
+                    <ul id="rightside-nav" class="nav-list">
+                        <li class="home">Home</li>
+                        <li class="find-a-doctor"><a href="#doctor">Find a Doctor</a></li>
+                        <li class="apps"><a href="#apps">Apps</a></li>
+                        <li class="testimonials"><a href="#testimonials">Testimonials</a></li>
+                        <li class="about-us">About us</li>
+                    </ul>
+                <!-- </div> -->
             </div>
         </nav>
         <!-- HERO SECTION -->
         <section class="hero-section">
             <div id="hero-text">
                 <h1>Virtual healthcare <br> for you</h1>
-                <p>Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online <br> for everyone</p>
+                <p>Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone</p>
                 <button class="consult-btn">Consult today</button>
             </div>
             <div class="hero-img">
@@ -43,7 +45,7 @@
     </header>
 
     <main>
-        <section class="our-services">
+        <section class="our-services" id="doctor">
             <div class="our-services-text">
                 <h2 class="our-services-header">Our services</h2>
                 <hr class="hr">
@@ -83,9 +85,9 @@
                 <p class="our-services-wordings">Track and save your medical history and health data </p>
             </div>
         </section>
-        <section class="our-services-btn-container">
+        <div class="our-services-btn-container">
                 <button class="main-btn-styling">Learn more</button>
-        </section>
+        </div>
         <section class="leading-healthcare-providers">
             <div class="leading-healthcare-providers-left-section">
                 <img src="images/leading-healthcare-providers.png" alt="Leading Healthcare Providers Illustration">
@@ -97,9 +99,9 @@
                 <button class="main-btn-styling">Learn more</button>
             </div> 
         </section>
-        <section class="download-our-mobile-apps">
+        <section class="download-our-mobile-apps" id="apps">
             <div class="download-our-mobile-apps-left-section">
-                <h2 class="download-our-mobile-apps-heading">Download our <br> mobile apps</h2>
+                <h2 class="download-our-mobile-apps-heading"  >Download our <br> mobile apps</h2>
                 <hr class="hr">
                 <p class="download-our-mobile-apps-text">Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely</p>
                 <button class="main-btn-styling">Download &nbsp; &darr;</button>
@@ -108,7 +110,7 @@
                 <img src="images/download-our-mobile-apps.png" alt="Download Our Mobile Apps Illustration">
             </div>
         </section>
-        <section class="testimonials-main">
+        <section class="testimonials-main" id="testimonials">
             <div class="testimonials-main-header">
                 <h2 class="testimonials-main-header-heading">What our customers are saying</h2>
                 <hr id="testimonials-main-header-hr">
@@ -124,8 +126,9 @@
                 <div class="testimonials-main1-right">
                     <p class="testimonials-main1-right-text">“Our dedicated patient engagement app and web portal allows you to access information instantaneously and securely(no tedeous form, long calls, or administrative hassle)”</p>
                 </div>
-            </div>
-            <div class="testimonials-navigation">
+            </div>           
+        </section>
+        <div class="testimonials-navigation">
                     <p class="navigation-buttons">
                         <ion-icon name="arrow-back-outline"></ion-icon> 
                         &nbsp; &nbsp; &nbsp; 
@@ -136,42 +139,41 @@
                         &nbsp; &nbsp; &nbsp;
                         <ion-icon name="arrow-forward" style="color: #5B9BF3;"></ion-icon>
                     </p>
-            </div>    
-        </section>
-        <section class="our-latest-arcticle">
-            <div class="our-latest-arcticle-general-text">
-                <h2 class="our-latest-arcticle-header">Check out our latest article</h2>
+            </div>   
+        <section class="our-latest-article">
+            <div class="our-latest-article-general-text">
+                <h2 class="our-latest-article-header">Check out our latest article</h2>
                 <hr class="hr">
             </div>
         </section>
-        <section class="our-latest-arcticle-container">
-            <div class="our-latest-arcticle-box">
-                <div class="our-latest-arcticle-img-container">
+        <section class="our-latest-article-container">
+            <div class="our-latest-article-box">
+                <div class="our-latest-article-img-container">
                     <img src="images/our-latest-arcticle-img1.png" alt="Our Latest Arcticle Img1">
                 </div>
-                <h3 class="our-latest-arcticle-box-heading">Disease detection, check <br> up in the laboratory</h3>
-                <p class="our-latest-arcticle-box-words">In this case, the role of the health laboratory is very important to do a disease detection...</p>
-                <div class="our-latest-arcticle-box-read-more">
+                <h3 class="our-latest-article-box-heading">Disease detection, check <br> up in the laboratory</h3>
+                <p class="our-latest-article-box-words">In this case, the role of the health laboratory is very important to do a disease detection...</p>
+                <div class="our-latest-article-box-read-more">
                     <a href="">Read more &nbsp; &rarr;</a>
                 </div>   
             </div>
-            <div class="our-latest-arcticle-box">
-                <div class="our-latest-arcticle-img-container">
+            <div class="our-latest-article-box">
+                <div class="our-latest-article-img-container">
                     <img src="images/our-latest-arcticle-img2.png" alt="Our Latest Arcticle Img2">
                 </div>
-                <h3 class="our-latest-arcticle-box-heading">Herbal medicines that are <br> safe for consumption</h3>
-                <p class="our-latest-arcticle-box-words">Herbal medicine is very widely used at this time because of its very good for your health...</p>
-                <div class="our-latest-arcticle-box-read-more">
+                <h3 class="our-latest-article-box-heading">Herbal medicines that are <br> safe for consumption</h3>
+                <p class="our-latest-article-box-words">Herbal medicine is very widely used at this time because of its very good for your health...</p>
+                <div class="our-latest-article-box-read-more">
                     <a href="">Read more &nbsp; &rarr;</a>
                 </div>   
             </div>
-            <div class="our-latest-arcticle-box">
-                <div class="our-latest-arcticle-img-container">
+            <div class="our-latest-article-box">
+                <div class="our-latest-article-img-container">
                     <img src="images/our-latest-arcticle-img3.png" alt="Our Latest Arcticle Img3">
                 </div>
-                <h3 class="our-latest-arcticle-box-heading">Natural care for healthy <br> facial skin</h3>
-                <p class="our-latest-arcticle-box-words">A healthy lifestyle should start from now and also for your skin health. There are some...</p>
-                <div class="our-latest-arcticle-box-read-more">
+                <h3 class="our-latest-article-box-heading">Natural care for healthy <br> facial skin</h3>
+                <p class="our-latest-article-box-words">A healthy lifestyle should start from now and also for your skin health. There are some...</p>
+                <div class="our-latest-article-box-read-more">
                     <a href="">Read more &nbsp; &rarr;</a>
                 </div>   
             </div>
@@ -182,49 +184,50 @@
     </main>
 
     <footer class="footer-container">
-        <section class="footer-1stsection">
-            <div class="footer-complete-icon">
-                <div id="t-footer-icon">
-                    <p class="footer-icon-letter">T</p>
+        <div class="footer">
+            <section class="footer-1stsection">
+                <div class="footer-complete-icon">
+                    <div id="t-footer-icon">
+                        <p class="footer-icon-letter">T</p>
+                    </div>
+                        <p class="footer-icon-word">Trafalgar</p>
                 </div>
-                    <p class="footer-icon-word">Trafalgar</p>
-            </div>
-                
-                <div class="footer-text">
-                    <p class="footer-1st-text">Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone</p>
-                    <p class="footer-2nd-text">&copy; Trafalgar PTY LTD 2020. All rights reserved</p>
-                </div>    
-        </section>
-        <section class="footer-2ndsection">
-                <table class="footer-table">
-                    <tr>
-                        <th>Company</th>
-                        <th>Region</th>
-                        <th>Help</th>
-                    </tr>
-                    <tr>
-                        <td>About</td>
-                        <td>Indonesia</td>
-                        <td>Help center</td>
-                    </tr>
-                    <tr>
-                        <td>Testimonials</td>
-                        <td>Singapore</td>
-                        <td>Contact support</td>
-                    </tr>
-                    <tr>
-                        <td>Find a doctor</td>
-                        <td>Hongkong</td>
-                        <td>Instructions</td>
-                    </tr>
-                    <tr>
-                        <td>Apps</td>
-                        <td>Canada</td>
-                        <td>How it works</td>
-                    </tr>
-                </table>
-        </section>
+                    
+                    <div class="footer-text">
+                        <p class="footer-1st-text">Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone</p>
+                        <p class="footer-2nd-text">&copy; Trafalgar PTY LTD 2020. All rights reserved</p>
+                    </div>    
+            </section>
+            <section class="footer-2ndsection">
+                    <section class="footer-list">
+                        <ul class="list1">
+                        <li>Company</li>
+                        <li>About</li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#doctor">Find a doctor</a></li>
+                        <li><a href="#apps">Apps</a></li>
+                    </ul>
+                    <ul class="list2">
+                        <li>Region</li>
+                        <li>Indonesia</li>
+                        <li>Singapore</li>
+                        <li>Hongkong</li>
+                        <li>Canada</li>
+                    </ul>
+                    <ul class="list3">
+                        <li>Help</li>
+                        <li>Helpcenter</li>
+                        <li>Contact support</li>
+                        <li>Instructions</li>
+                        <li>How it works</li>
+                    </ul>
+                    </section>
+                    
+            </section>
+        </div>    
     </footer>
+
+
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
