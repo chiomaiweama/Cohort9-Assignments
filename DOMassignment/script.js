@@ -63,7 +63,7 @@ continentForm.addEventListener('submit', (e) => {
     handleSubmit();
 });
 
-// ✅ ONE delete handler for ALL buttons (default + added)
+// ONE delete handler for ALL buttons (default + added)
 continentList.addEventListener('click', (e) => {
     const deleteBtn = e.target.closest('button');
     if (!deleteBtn) return;
